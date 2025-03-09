@@ -1,0 +1,13 @@
+[
+  {
+    "bindings": {
+      "alt-h": "workspace::ActivatePaneLeft",
+      "alt-j": "workspace::ActivatePaneDown",
+      "alt-k": "workspace::ActivatePaneUp",
+      "alt-l": "workspace::ActivatePaneRight",
+      "ctrl-b": "workspace::ToggleLeftDock",
+      "ctrl-shift-escape": "workspace::ToggleZoom",
+      "shift-escape": null
+    }
+  }
+]
