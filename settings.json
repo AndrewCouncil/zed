@@ -23,6 +23,7 @@
     "git-firefly": true,
     "gosum": true,
     "html": true,
+    "ini": true,
     "latex": true,
     "log": true,
     "lua": true,
