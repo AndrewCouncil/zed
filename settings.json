@@ -1,5 +1,13 @@
 {
   // ai settings
+  "edit_predictions": {
+    "disabled_globs": [],
+    "mode": "eager_preview",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
+    }
+  },
   "assistant": {
     "default_model": {
       "provider": "zed.dev",
@@ -52,7 +60,8 @@
   "buffer_font_size": 16,
   "cursor_blink": false,
   "file_types": {
-    "CMake": ["CMakeLists.txt", "cmake"]
+    "CMake": ["CMakeLists.txt", "cmake"],
+    "Dockerfile": ["Dockerfile*"]
   },
   "icon_theme": {
     "dark": "Catppuccin Mocha",
