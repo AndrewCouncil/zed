@@ -71,6 +71,13 @@
   "languages": {
     "Markdown": {
       "soft_wrap": "editor_width"
+    },
+    "Nix": {
+      "formatter": {
+        "external": {
+          "command": "nixfmt"
+        }
+      }
     }
   },
   "load_direnv": "shell_hook",
