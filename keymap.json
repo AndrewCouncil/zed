@@ -8,15 +8,15 @@
       "ctrl-b": "workspace::ToggleLeftDock",
       "ctrl-shift-escape": "workspace::ToggleZoom",
       "ctrl-shift-e": "project_panel::ToggleFocus",
-      "shift-escape": null
+      "shift-escape": null,
+      "ctrl-shift-space": ["task::Spawn", { "task_name": "lazygit" }]
     }
   },
   {
     "context": "Editor && edit_prediction",
     "bindings": {
-      "ctrl-tab": "editor::AcceptEditPrediction",
-      "alt-l": null,
-      "alt-tab": null,
+      "alt-tab": "editor::AcceptEditPrediction",
+      "alt-l": "editor::AcceptEditPrediction",
       "tab": null
     }
   }
