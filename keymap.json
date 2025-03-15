@@ -10,5 +10,14 @@
       "ctrl-shift-e": "project_panel::ToggleFocus",
       "shift-escape": null
     }
+  },
+  {
+    "context": "Editor && edit_prediction",
+    "bindings": {
+      "ctrl-tab": "editor::AcceptEditPrediction",
+      "alt-l": null,
+      "alt-tab": null,
+      "tab": null
+    }
   }
 ]

@@ -1,8 +1,16 @@
 {
   // ai settings
   "edit_predictions": {
-    "disabled_globs": [],
-    "mode": "eager_preview",
+    "disabled_globs": [
+      "**/.env*",
+      "**/*.pem",
+      "**/*.key",
+      "**/*.cert",
+      "**/*.crt",
+      "**/.dev.vars",
+      "**/secrets.yml"
+    ],
+    "mode": "eager",
     "copilot": {
       "proxy": null,
       "proxy_no_verify": null
