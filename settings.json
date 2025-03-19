@@ -63,6 +63,11 @@
       "milliseconds": 500
     }
   },
+  "terminal": {
+    "shell": {
+      "program": "nu"
+    }
+  },
   "base_keymap": "VSCode",
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_size": 16,
