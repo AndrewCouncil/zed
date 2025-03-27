@@ -10,7 +10,7 @@
       "**/.dev.vars",
       "**/secrets.yml"
     ],
-    "mode": "eager",
+    "mode": "subtle",
     "copilot": {
       "proxy": null,
       "proxy_no_verify": null
@@ -77,7 +77,7 @@
     "Dockerfile": ["Dockerfile*"]
   },
   "icon_theme": {
-    "dark": "Catppuccin Mocha",
+    "dark": "Catppuccin Macchiato",
     "light": "Catppuccin Latte",
     "mode": "dark"
   },
