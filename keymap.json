@@ -9,7 +9,12 @@
       "ctrl-shift-escape": "workspace::ToggleZoom",
       "ctrl-shift-e": "project_panel::ToggleFocus",
       "shift-escape": null,
-      "ctrl-shift-space": ["task::Spawn", { "task_name": "lazygit" }]
+      "ctrl-shift-space": ["task::Spawn", { "task_name": "lazygit" }],
+      "ctrl-right": "pane::SplitRight",
+      "ctrl-left": "pane::SplitLeft",
+      "ctrl-up": "pane::SplitUp",
+      "ctrl-down": "pane::SplitDown",
+      "ctrl-q": "pane::CloseActiveItem"
     }
   },
   {
