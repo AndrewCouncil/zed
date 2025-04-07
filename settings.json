@@ -85,6 +85,11 @@
     "Markdown": {
       "soft_wrap": "editor_width"
     },
+    "Go": {
+      "soft_wrap": "editor_width"
+      // "tab_size": 2,
+      // "hard_tabs": true
+    },
     "Nix": {
       "formatter": {
         "external": {
