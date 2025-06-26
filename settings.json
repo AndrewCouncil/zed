@@ -76,6 +76,7 @@
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_size": 15,
   "cursor_blink": false,
+  "hide_mouse": "on_typing",
   "scroll_beyond_last_line": "off",
   "file_types": {
     "CMake": ["CMakeLists.txt", "cmake"],
