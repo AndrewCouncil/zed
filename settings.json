@@ -17,6 +17,7 @@
     }
   },
   "agent": {
+    "default_profile": "write",
     "inline_assistant_model": {
       "provider": "zed.dev",
       "model": "claude-sonnet-4"
@@ -92,8 +93,8 @@
       "soft_wrap": "editor_width"
     },
     "Go": {
-      "soft_wrap": "editor_width"
-      // "tab_size": 2,
+      "soft_wrap": "editor_width",
+      "tab_size": 2
       // "hard_tabs": true
     },
     "Nix": {
