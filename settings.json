@@ -94,7 +94,7 @@
     },
     "Go": {
       "soft_wrap": "editor_width",
-      "tab_size": 2
+      "tab_size": 4
       // "hard_tabs": true
     },
     "Nix": {
