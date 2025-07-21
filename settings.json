@@ -55,6 +55,7 @@
     "nix": true,
     "nu": true,
     "proto": true,
+    "ruff": true,
     "sql": true,
     "terraform": true,
     "toml": true,
